@@ -5,6 +5,8 @@ jsanck1
 L’utente inserisce due numeri in successione, con due prompt.
 Il software stampa il maggiore.
 
+
+
 let result = document.querySelector('.result');
 
 let num1 = parseInt(prompt('dammi un numero'));
@@ -19,6 +21,7 @@ if (num1 > num2) {
 }
 
 */
+
 
 
 
@@ -142,6 +145,7 @@ console.log(arr);
 
 
 
+
 /*
 
 Snack 6
@@ -173,12 +177,17 @@ console.log(numbers)
 
 
 
+/* blocco 2 */
+
+
+
 /* 
 
 Snack 1.9
 
 calcola la somma e la media dei primi dieci numeri sia con il for che con il while
 
+// ciclo for
 
 let tot = 0
 
@@ -189,7 +198,7 @@ for (let number = 1; number <= 10; number++) {
 console.log(tot);
 console.log(tot / 10);
 
-
+// ciclo while
 
 let tot = 0;
 let number = 1; 
@@ -207,6 +216,7 @@ console.log(tot / 10);
 
 
 
+
 /*
 
 Snack 2.1
@@ -217,13 +227,11 @@ Il programma stampa la somma di tutti i numeri inseriti.
 Esegui questo programma in due versioni, con il for e con il while.
 
 
-
 // ciclo for
 
 let result = document.querySelector('.result');
 
 let tot = 0;
-
 
 for (let i = 0; i < 5; i++) {
 
@@ -234,11 +242,8 @@ for (let i = 0; i < 5; i++) {
 
 result.innerHTML = tot;
 
-*/
 
 // ciclo while 
-
-/*
 
 
 let result = document.querySelector('.result');
@@ -255,8 +260,11 @@ while (number <= 5) {
 
 result.innerHTML = tot;
 
-
 */
+
+
+
+
 
 /*
 
@@ -264,7 +272,6 @@ Snack 2.2
 
 Inserisci un numero, se è pari stampa il numero,
 se è dispari stampa il numero successivo
-
 
 
 let result = document.querySelector('.result');
@@ -280,6 +287,9 @@ if (userNumber % 2 == 0) {
 }
 
 */
+
+
+
 
 /*
 
