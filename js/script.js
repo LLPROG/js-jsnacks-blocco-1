@@ -153,42 +153,23 @@ e calcola la somma di tutte le cifre che compongono il numero.
 
 let result = document.querySelector('.result');
 
-let userNumber = parseInt(prompt('inserisci un numero a quattro cifre'));
+let userNumber = prompt('inserisci un numero a quattro cifre');
 
-let numbers = []
+let numbers = 0
 
 let code = false;
 
-for (let i = 1000; i < 10000; i++) {
+if (userNumber >= 1000 && userNumber < 10000) {
 
-    if (userNumber == i) {
-        numbers.push(userNumber);
-        code = true
-    }
-}
-
-let calc = []
-
-numbers = numbers.toString();
-
-let len = numbers.length;
-
-for (let i = 0; i < len; i++) {
-    calc.push(numbers.charAt(i));
-}
-
-let output = parseInt(calc[0]) + parseInt(calc[1]) + parseInt(calc[2]) + parseInt(calc[3]);
-
-
-
-if (code !== false) {
-    result.innerHTML = output;
+    for (let i = 0; i < userNumber.length; i++)
+    numbers += parseInt(userNumber[i])
 } else {
-    result.innerHTML = 'digit a correct value';
+    alert('insert a correct number')
+}
 
+console.log(numbers)
 
 */
-
 
 
 
